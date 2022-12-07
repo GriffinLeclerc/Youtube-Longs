@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "Youtube Longs",
+    "version": "1.0",
+  
+    "description": "Redirects youtube shorts to play in the standard player.",
+
+    "permissions": [
+      "webNavigation"
+    ],
+  
+    "icons": {
+      
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/shorts/*"],
+        "js": ["make-long.js"]
+      }
+    ]
+  
+  }
+  
