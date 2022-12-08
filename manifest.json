@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Youtube Longs",
-    "version": "1.0",
+    "version": "1.1",
   
     "description": "Redirects YouTube shorts to play in the standard player.",
 
